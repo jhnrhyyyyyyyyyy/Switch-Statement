@@ -2,25 +2,25 @@ let day = prompt("Enter a day of  week:");
 
 switch (day.toLowerCase()){
     case "monday":
-        console.log("Finish your assignment!");
+        console.log("Your task for Monday is: Finish your assignment.");
         break;
     case "tuesday":
-        console.log("Finish your projects!");
+        console.log("Your task for Tuesday is: Finish your projects.");
         break;
-    case "wednnesday":
-        console.log("Complete the project report!");
+    case "wednesday":
+        console.log("Your task for Wednesday is: Complete the project report.");
             break;
     case "thursday":
-        console.log("Finish your activities!");
+        console.log("Your task for Thursday is: Finish your activities.");
         break;      
     case "friday":
-        console.log("Prepare for the presentation!");
+        console.log("Your task for Friday is: Prepare for the presentation.");
         break;
     case "saturday":
-        console.log("Finish your household chores!");
+        console.log("Your task for Saturday is: Finish your household chores.");
         break;
     case "sunday":
-        console.log("It's time to review!");
+        console.log("Your task for Sunday is: It's time to review.");
         break;
     default:
         console.log("Invalid Input!");
